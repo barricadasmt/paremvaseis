@@ -140,6 +140,7 @@
             onEachFeature: pop__1,
             pointToLayer: customPointToLayer
         });
+        layer__1.addTo(map);
         var cluster__1 = new L.MarkerClusterGroup({ showCoverageOnHover: false, spiderfyDistanceMultiplier: 2 });
         cluster__1.addLayer(layer__1);
         cluster__1.addTo(map);
